@@ -1,6 +1,12 @@
   
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 
+body,
+html{
+  font-family: 'Montserrat', sans-serif;
+  margin: 5%;
+}
+
 .title {
     color:#e2e5e7;
     font-size:60px;
@@ -9,7 +15,7 @@
 }
 
 .sub-title {
-    color: #505050;
+    color: #e6e6e6;
     font-size:20px;
     font-family: 'Montserrat', sans-serif;
 }
