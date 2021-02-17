@@ -20,4 +20,3 @@ else
     console.log('Why not enjoy a float down the Lazy River?');
 }
 
-var noun = 
