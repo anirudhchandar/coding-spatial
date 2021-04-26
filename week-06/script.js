@@ -20,3 +20,9 @@ else
     console.log('Why not enjoy a float down the Lazy River?');
 }
 
+let noun = "cat";
+let verb = "run";
+let adj = "high";
+
+let sentence = `My ${noun} leaps ${adj} when I ${verb}
+a rainbow in the sky.'
