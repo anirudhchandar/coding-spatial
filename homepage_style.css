@@ -4,18 +4,19 @@
 body,
 html{
   font-family: 'Montserrat', sans-serif;
-  margin: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 .title {
-    color:#e2e5e7;
+    color:#1f1f1f;
     font-size:60px;
     font-family: 'Montserrat', sans-serif;
     line-height: 0.9em;  
 }
 
 .sub-title {
-    color: #e6e6e6;
+    color: #242424;
     font-size:20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -32,7 +33,7 @@ h4 {
     color: #fffefb
 }
 body {
-    background-color:#87b3b0
+    background-color:#ebebeb
 }
 
 /* background-color:#87b3b0 */ 
