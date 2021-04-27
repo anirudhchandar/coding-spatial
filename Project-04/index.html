@@ -1,24 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>filterable gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <div class="filter-button">
-        Filter
-    </div>
-    <div class="sort-button">
-        Sort
-    </div>
-    <div class="search-bar">
-        <input type="text">
-    </div>
-    <div class="artist-container"></div>
+    <h1 class="title"> Anirudh Chandar </h1> 
+    <h1 style=float:left;></h1>
 
-    <script src="artists.js"></script>    
-    <script src="script.js"></script> 
+<section class="gallery">
+	<div class="container">
+		<div class="row">
+			<div class="gallery-filter">
+				<span class="filter-item active" data-filter="all">All Work</span>
+				<span class="filter-item" data-filter="Academic">Academic</span>
+				<span class="filter-item" data-filter="Professional">Professional</span>
+				<span class="filter-item" data-filter="Water">About</span>
+			</div>
+		</div>
+		<div class="row">
+
+            <!-- gallery item start -->
+			<div class="gallery-item Academic">
+				<div class="gallery-item-inner">
+					<img src="images2/A 1.jpg" alt="Academic">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+            
+            <!-- gallery item start -->
+			<div class="gallery-item Academic">
+				<div class="gallery-item-inner">
+					<img src="images2/A 2.jpg" alt="Academic">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+           
+             <!-- gallery item start -->
+			<div class="gallery-item Academic">
+				<div class="gallery-item-inner">
+					<img src="images2/A 3.jpg" alt="Academic">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+
+             <!-- gallery item start -->
+			<div class="gallery-item Academic">
+				<div class="gallery-item-inner">
+					<img src="images2/A 4.jpg" alt="Academic">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+
+             <!-- gallery item start -->
+			<div class="gallery-item Professional">
+				<div class="gallery-item-inner">
+					<img src="images2/P1.jpg" alt="Professional">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+
+            <!-- gallery item start -->
+			<div class="gallery-item Professional">
+				<div class="gallery-item-inner">
+					<img src="images2/P2.jpg" alt="Professional">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+
+
+            <!-- gallery item start -->
+			<div class="gallery-item Professional">
+				<div class="gallery-item-inner">
+					<img src="images2/P3.jpg" alt="Professional">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+
+
+            <!-- gallery item end --></div>
+
+            <!-- gallery item start -->
+			<div class="gallery-item Professional">
+				<div class="gallery-item-inner">
+					<img src="images2/P4.jpg" alt="Professional">
+				</div>
+			</div>
+			<!-- gallery item end --></div>
+</div>
+
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
